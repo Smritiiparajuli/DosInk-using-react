@@ -62,7 +62,7 @@
     font-size: 1.1rem;
     border-radius: 20px;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px;
 }
 
 .login-button:hover{
