@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import { FaUser } from "react-icons/fa";
+import { IoCall } from "react-icons/io5";
 import "./Navbar.css"
 export const Navbar = () => {
   return (
@@ -42,19 +44,13 @@ export const Navbar = () => {
         </div>
 
         <NavLink to="/contact" className="contact-button">
-          <img
-            src="/images/call-icon.png"
-            alt="contact-icon"
-            className="contact-icon"
-          />
+        <IoCall />
+          
           <p>Contact Us</p>
         </NavLink>
         <NavLink to="/login" className="login-button">
-          <img
-            src="/images/user-logo.png"
-            alt="user-logo"
-            className="user-logo"
-          />
+          <FaUser />
+          
           <p> Login </p>
         </NavLink>
       </nav>
