@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Cardo", serif;
-    
+@import "tailwindcss";
+
+@theme {
+    --color-dosinkblue: #B0C7DD;
+    --color-dosinkcreme: #F2E3D0;
+    --color-dosinkbrown: #7C7D80;
+    --color-burntorange: #CC5500;
+    --color-star: #db9107;
 }
 
+*{
+    font-family: "Cardo", serif;    
+}
+
+textarea{
+    font-family: "Cardo", serif;    
+}
 :root {
     --dosink-blue: #B0C7DD;
     --dosink-creme: #F2E3D0;
@@ -15,11 +24,11 @@
     --light-blue: #59acd3;
     --navy-blue: #003366;
     --navy-blue-hover: #336699;
-
-
-
 }
-a{
-    text-decoration: none;
-    color: black;
+
+@layer base{
+    .container{
+        @apply px-6 py-12 max-w-7xl mt-2 mx-auto lg:px-8
+    }
 }
+

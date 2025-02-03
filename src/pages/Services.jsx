@@ -1,10 +1,8 @@
-
+import { BentoGrid } from "../components/BentoGrid"
 export const Services = () => {
 
-    return <> 
-    
-
-   Services Page
+    return <>
+        <BentoGrid/>
     </>
     
     
